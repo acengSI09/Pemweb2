@@ -4,6 +4,19 @@
 <h1>Form Pendaftaran Siswa</h1>
 <form method="POST" action="#">
     <br>
+     <div class="form-group row">
+    <label for="nim" class="col-4 col-form-label">NIM</label> 
+    <div class="col-8">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <i class="fa fa-user"></i>
+          </div>
+        </div> 
+        <input id="nim" name="nim" type="text" class="form-control">
+      </div>
+    </div>
+  </div> 
   <div class="form-group row">
     <label for="nama" class="col-4 col-form-label">Nama</label> 
     <div class="col-8">
@@ -108,6 +121,7 @@
 </form>
 
 <?php
+$nim = $_POST['nim'];
 $nama = $_POST['nama'];
 $jk = $_POST['jk'];
 $prodi = $_POST['prodi'];
@@ -133,6 +147,7 @@ $status = status($ipk);
 
 //cetah
 echo "<h2>Informasi yang Anda Kirim</h2>";
+echo "NIM: $nim <br>";
 echo "Nama: $nama <br>";
 echo "Prodi: $prodi <br>";
 echo "Jenis Kelamin: $jk <br>";
