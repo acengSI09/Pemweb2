@@ -29,13 +29,13 @@
         <a href="index.php" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../praktikum5/03/index.html" class="nav-link">Profile</a>
+        <a href="./datapasien.php" class="nav-link">Data Pasien</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="login.php" class="nav-link">Login</a>
+        <a href="./dataparamedik.php" class="nav-link">Data Paramedik</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="contact.php" class="nav-link">Contact</a>
+        <a href="./datapemeriksaan.php" class="nav-link">Data Pemeriksaan</a>
       </li>
     </ul>
 
